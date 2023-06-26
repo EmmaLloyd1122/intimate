@@ -1,0 +1,67 @@
+.footer{
+   background-color:black; 
+   color: #fff;
+   padding: 2rem 4rem;
+
+   @media only screen and (max-width:$bp-small){
+     padding: 2rem 2rem;
+  }
+  
+
+
+
+   &__content{
+      padding: 2rem 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: start;
+
+      @media only screen and (max-width:$bp-small){
+         display: flex;
+         justify-content: space-between;
+     }
+   }
+   &__h1{
+      font-family: sans-serif;
+      font-weight: 100;
+      font-size: 3rem;
+
+      @media only screen and (max-width:$bp-small){
+           font-size: 1.5rem;
+      }
+
+     
+   }
+
+   &__h2{
+    font-weight: 100;
+     font-size: 2rem;
+     font-family:sans-serif;
+     @media only screen and (max-width:$bp-small){
+       font-size: 1.8rem;
+     }
+   }
+
+   &__list{
+
+      &--1{
+         font-size: 1.5rem;
+         line-height: 3rem;
+         text-transform: capitalize;
+
+         @media only screen and (max-width:$bp-small){
+            font-size: 1.2rem;
+          }
+      }
+
+      &--2{
+         font-size: 1.5rem;
+         line-height: 3rem;
+         text-transform: capitalize;
+
+         @media only screen and (max-width:$bp-small){
+            font-size: 1.2rem;
+          }
+     }
+   }
+}
